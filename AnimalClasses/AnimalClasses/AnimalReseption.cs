@@ -10,10 +10,6 @@ namespace AnimalClasses
     public class AnimalReseption
     {
         /// <summary>
-        /// Животное
-        /// </summary>
-        public Animal Animal { get; set; }
-        /// <summary>
         /// Откуда
         /// </summary>
         public string From { get; set; }
@@ -33,25 +29,5 @@ namespace AnimalClasses
         /// Состояние
         /// </summary>
         public Condition condition { get; set; }
-    }
-    /// <summary>
-    /// Состояние
-    /// </summary>
-    public enum Condition
-    {
-        good,
-        normal,
-        bad,
-        awful,
-    }
-    /// <summary>
-    /// Редкость
-    /// </summary>
-    public enum Rarity
-    {
-        probablyDisappeared,
-        threatenedWithExtinction,
-        dwindlingInNumbers,
-        rare,
     }
 }

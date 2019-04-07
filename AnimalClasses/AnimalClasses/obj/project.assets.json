@@ -3773,11 +3773,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Anvar\\source\\repos\\AnimalClasses\\AnimalClasses\\AnimalClasses.csproj",
+      "projectUniqueName": "C:\\Users\\Anvar\\source\\repos\\Labs\\AnimalClasses\\AnimalClasses\\AnimalClasses.csproj",
       "projectName": "AnimalClasses",
-      "projectPath": "C:\\Users\\Anvar\\source\\repos\\AnimalClasses\\AnimalClasses\\AnimalClasses.csproj",
+      "projectPath": "C:\\Users\\Anvar\\source\\repos\\Labs\\AnimalClasses\\AnimalClasses\\AnimalClasses.csproj",
       "packagesPath": "C:\\Users\\Anvar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Anvar\\source\\repos\\AnimalClasses\\AnimalClasses\\obj\\",
+      "outputPath": "C:\\Users\\Anvar\\source\\repos\\Labs\\AnimalClasses\\AnimalClasses\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Anvar\\AppData\\Roaming\\NuGet\\NuGet.Config",

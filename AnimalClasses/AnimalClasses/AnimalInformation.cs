@@ -10,6 +10,10 @@ namespace AnimalClasses
     public class AnimalInformation
     {
         /// <summary>
+        /// Редкость
+        /// </summary>
+        public Rarity Rarity { get; set; }
+        /// <summary>
         /// Разновидность животных
         /// </summary>
         public KindAnimal KindAnimal { get; set; }
@@ -41,45 +45,5 @@ namespace AnimalClasses
         /// Порода
         /// </summary>
         public string Breed { get; set; }
-    }
-    /// <summary>
-    /// Пол
-    /// </summary>
-    public enum Gender
-    {
-        Male,
-        Female,
-    }
-    /// <summary>
-    /// Тип животного
-    /// </summary>
-    public enum AnimalType
-    {
-        aerial,
-        terrestrial,
-        underwater,
-    }
-    /// <summary>
-    /// Характер животного
-    /// </summary>
-    public enum CharacterAnimal
-    {
-        aggressive,
-        calm,
-        quiet,
-        benevolent,
-        mild,
-    }
-    /// <summary>
-    /// Разновидность животного
-    /// </summary>
-    public enum KindAnimal
-    {
-        crustacean,
-        reptile,
-        birdge,
-        fish,
-        amphibia,
-        mammal,
     }
 }
