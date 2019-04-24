@@ -36,7 +36,7 @@ namespace AnimalClasses
         /// <summary>
         /// Возраст
         /// </summary>
-        public int Age { get; set; }
+        public string Age { get; set; }
         /// <summary>
         /// Пол
         /// </summary>
@@ -45,5 +45,9 @@ namespace AnimalClasses
         /// Порода
         /// </summary>
         public string Breed { get; set; }
+        public override string ToString()
+        {
+            return $"Разновидность: {KindAnimal},\t Характер: {CharacterAnimal}, Пол: {Gender},  Порода {Breed},  Возраст : {Age}";
+        }
     }
 }

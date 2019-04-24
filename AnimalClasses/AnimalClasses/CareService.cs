@@ -29,5 +29,9 @@ namespace AnimalClasses
         /// Плановое обслуживание
         /// </summary>
         public bool IsPlannedService { get; set; }
+        public override string ToString()
+        {
+            return $"{nameof(Description)}: {Description}, {nameof(IsPlannedService)}: {IsPlannedService}, {nameof(MaintananceDate)}: {MaintananceDate}, {nameof(NextPlannedService)}: {NextPlannedService}, {nameof(Vaccination)}: {Vaccination}";
+        }
     }
 }

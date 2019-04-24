@@ -1,0 +1,15 @@
+C:\Users\Anvar\source\repos\Labs\AnimalClasses\FormForMyClassesAnimal\bin\Debug\FormForMyClassesAnimal.exe.config
+C:\Users\Anvar\source\repos\Labs\AnimalClasses\FormForMyClassesAnimal\bin\Debug\FormForMyClassesAnimal.exe
+C:\Users\Anvar\source\repos\Labs\AnimalClasses\FormForMyClassesAnimal\bin\Debug\FormForMyClassesAnimal.pdb
+C:\Users\Anvar\source\repos\Labs\AnimalClasses\FormForMyClassesAnimal\bin\Debug\AnimalClasses.dll
+C:\Users\Anvar\source\repos\Labs\AnimalClasses\FormForMyClassesAnimal\bin\Debug\AnimalClasses.pdb
+C:\Users\Anvar\source\repos\Labs\AnimalClasses\FormForMyClassesAnimal\obj\Debug\FormForMyClassesAnimal.csprojResolveAssemblyReference.cache
+C:\Users\Anvar\source\repos\Labs\AnimalClasses\FormForMyClassesAnimal\obj\Debug\FormForMyClassesAnimal.AnimalReseptionForm.resources
+C:\Users\Anvar\source\repos\Labs\AnimalClasses\FormForMyClassesAnimal\obj\Debug\FormForMyClassesAnimal.CareForm.resources
+C:\Users\Anvar\source\repos\Labs\AnimalClasses\FormForMyClassesAnimal\obj\Debug\FormForMyClassesAnimal.Form1.resources
+C:\Users\Anvar\source\repos\Labs\AnimalClasses\FormForMyClassesAnimal\obj\Debug\FormForMyClassesAnimal.InformationForm.resources
+C:\Users\Anvar\source\repos\Labs\AnimalClasses\FormForMyClassesAnimal\obj\Debug\FormForMyClassesAnimal.Properties.Resources.resources
+C:\Users\Anvar\source\repos\Labs\AnimalClasses\FormForMyClassesAnimal\obj\Debug\FormForMyClassesAnimal.csproj.GenerateResource.Cache
+C:\Users\Anvar\source\repos\Labs\AnimalClasses\FormForMyClassesAnimal\obj\Debug\FormForMyClassesAnimal.csproj.CoreCompileInputs.cache
+C:\Users\Anvar\source\repos\Labs\AnimalClasses\FormForMyClassesAnimal\obj\Debug\FormForMyClassesAnimal.exe
+C:\Users\Anvar\source\repos\Labs\AnimalClasses\FormForMyClassesAnimal\obj\Debug\FormForMyClassesAnimal.pdb

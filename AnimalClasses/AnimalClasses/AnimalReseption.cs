@@ -29,5 +29,9 @@ namespace AnimalClasses
         /// Состояние
         /// </summary>
         public Condition condition { get; set; }
+        public override string ToString()
+        {
+            return $"Откуда: {From}, Дата: {Date}, Болезнь: {Ill}, Редкость: {Rarity}, Состояное : {condition}";
+        }
     }
 }
