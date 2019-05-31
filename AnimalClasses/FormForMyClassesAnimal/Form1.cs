@@ -108,17 +108,15 @@ namespace FormForMyClassesAnimal
 
             if (sfd.ShowDialog(this) != DialogResult.OK)
                 return;
-            var AnimalInformation = new AnimalInformation()
+            var Animal = new Animal()
             {
-                Nickname = textBox1.Text,
-            };
-
-            var Animal = new Animal ()
-            {
+              
                 Journal = listBox1.Items.OfType<AnimalReseption>().ToList(),
                 CareService = listBox2.Items.OfType<CareService>().ToList(),
+                Information = (AnimalInformation)listBox3.Items[0],
             };
-
+            Animal.Information.Nickname = textBox1.Text;
+            Animal.Information.DateOfBithday = dateTimePicker1.Value;
             var stream = new MemoryStream();
             pictureBox1.Image.Save(stream, ImageFormat.Jpeg);
             Animal.Photo = stream.ToArray();
@@ -127,21 +125,20 @@ namespace FormForMyClassesAnimal
             switch (comboBox1.SelectedValue?.ToString())
             {
                 case "Воздушный":
-                    AnimalInformation.AnimalType= AnimalType.aerial;
+                    Animal.Information.AnimalType= AnimalType.aerial;
                     break;
                 case "Наземный":
-                    AnimalInformation.AnimalType = AnimalType.terrestrial;
+                    Animal.Information.AnimalType = AnimalType.terrestrial;
                     break;
                 default:
-                    AnimalInformation.AnimalType= AnimalType.underwater;
+                    Animal.Information.AnimalType= AnimalType.underwater;
                     break;
             }
 
-            var xs = new XmlSerializer(typeof(AnimalInformation));
 
+            var xk = new XmlSerializer(typeof(Animal));
             var file = File.Create(sfd.FileName);
-
-            xs.Serialize(file, Animal);
+            xk.Serialize(file, Animal);
             file.Close();
         }
 
@@ -151,16 +148,14 @@ namespace FormForMyClassesAnimal
 
             if (ofd.ShowDialog(this) != DialogResult.OK)
                 return;
-            var xs = new XmlSerializer(typeof(AnimalInformation));
             var xk = new XmlSerializer(typeof(Animal));
             var file = File.OpenRead(ofd.FileName);
-            var animalInformation = (AnimalInformation)xs.Deserialize(file);
             var animal = (Animal)xk.Deserialize(file);
             file.Close();
 
-            textBox1.Text = animalInformation.Nickname;
-            dateTimePicker1.Value = animalInformation.DateOfBithday;
-            switch (animalInformation.AnimalType)
+            textBox1.Text = animal.Information.Nickname;
+            dateTimePicker1.Value = animal.Information.DateOfBithday;
+            switch (animal.Information.AnimalType)
             {
                 case AnimalType.aerial:
                     comboBox1.Text = "Воздушный";
@@ -180,6 +175,7 @@ namespace FormForMyClassesAnimal
 
             listBox1.Items.Clear();
             listBox2.Items.Clear();
+            listBox3.Items.Clear();
             foreach (var flight in animal.Journal)
             {
                 listBox1.Items.Add(flight);
@@ -188,6 +184,7 @@ namespace FormForMyClassesAnimal
             {
                 listBox2.Items.Add(sm);
             }
+            listBox3.Items.Add(animal.Information);
         }
 
         private void button6_Click(object sender, EventArgs e)

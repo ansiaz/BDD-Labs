@@ -36,6 +36,7 @@ namespace FormForMyClassesAnimal
         {
             AnimalReseption.From = textBox1.Text;
             AnimalReseption.Ill = textBox3.Text;
+            AnimalReseption.Date = dateTimePicker1.Value;
             switch (comboBox1.SelectedValue?.ToString())
             {
                 case "Probably disappeared":

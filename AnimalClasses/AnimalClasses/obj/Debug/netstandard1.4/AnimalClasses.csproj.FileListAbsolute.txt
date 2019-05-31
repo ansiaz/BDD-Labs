@@ -9,8 +9,9 @@ C:\Users\Anvar\source\repos\AnimalClasses\AnimalClasses\obj\Debug\netstandard1.4
 C:\Users\Anvar\source\repos\Labs\AnimalClasses\AnimalClasses\bin\Debug\netstandard1.4\AnimalClasses.deps.json
 C:\Users\Anvar\source\repos\Labs\AnimalClasses\AnimalClasses\bin\Debug\netstandard1.4\AnimalClasses.dll
 C:\Users\Anvar\source\repos\Labs\AnimalClasses\AnimalClasses\bin\Debug\netstandard1.4\AnimalClasses.pdb
-C:\Users\Anvar\source\repos\Labs\AnimalClasses\AnimalClasses\obj\Debug\netstandard1.4\AnimalClasses.csprojResolveAssemblyReference.cache
 C:\Users\Anvar\source\repos\Labs\AnimalClasses\AnimalClasses\obj\Debug\netstandard1.4\AnimalClasses.csproj.CoreCompileInputs.cache
 C:\Users\Anvar\source\repos\Labs\AnimalClasses\AnimalClasses\obj\Debug\netstandard1.4\AnimalClasses.AssemblyInfo.cs
 C:\Users\Anvar\source\repos\Labs\AnimalClasses\AnimalClasses\obj\Debug\netstandard1.4\AnimalClasses.dll
 C:\Users\Anvar\source\repos\Labs\AnimalClasses\AnimalClasses\obj\Debug\netstandard1.4\AnimalClasses.pdb
+C:\Users\Anvar\source\repos\Labs\AnimalClasses\AnimalClasses\obj\Debug\netstandard1.4\AnimalClasses.csprojAssemblyReference.cache
+C:\Users\Anvar\source\repos\Labs\AnimalClasses\AnimalClasses\obj\Debug\netstandard1.4\AnimalClasses.AssemblyInfoInputs.cache

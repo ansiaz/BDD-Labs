@@ -22,6 +22,7 @@ namespace FormForMyClassesAnimal
 
         private void CareForm_Load(object sender, EventArgs e)
         {
+            textBox1.Text = CareService.Vaccination;
             textBox2.Text = CareService.Description;
             dateTimePicker1.Value = CareService.MaintananceDate;
             if (CareService.NextPlannedService.HasValue)
@@ -34,6 +35,7 @@ namespace FormForMyClassesAnimal
         private void button1_Click(object sender, EventArgs e)
         {
             CareService.Description = textBox1.Text;
+            CareService.Vaccination = textBox2.Text;
             CareService.MaintananceDate = dateTimePicker1.Value;
             CareService.IsPlannedService = checkBox1.Checked;
             if (!dateTimePicker2.Checked)

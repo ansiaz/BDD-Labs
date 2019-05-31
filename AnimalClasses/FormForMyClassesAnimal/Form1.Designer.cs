@@ -124,6 +124,9 @@
             // 
             // listBox3
             // 
+            this.listBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.listBox3.FormattingEnabled = true;
             this.listBox3.Location = new System.Drawing.Point(6, 114);
             this.listBox3.Name = "listBox3";
@@ -228,6 +231,9 @@
             // 
             // listBox1
             // 
+            this.listBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Location = new System.Drawing.Point(7, 57);
             this.listBox1.Name = "listBox1";
@@ -271,6 +277,9 @@
             // 
             // listBox2
             // 
+            this.listBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.listBox2.FormattingEnabled = true;
             this.listBox2.Location = new System.Drawing.Point(7, 57);
             this.listBox2.Name = "listBox2";
@@ -391,8 +400,8 @@
         private System.Windows.Forms.ListBox listBox2;
         private System.Windows.Forms.ToolStripLabel toolStripLabel1;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.ListBox listBox3;
         private System.Windows.Forms.Button button7;
+        public System.Windows.Forms.ListBox listBox3;
     }
 }
 
